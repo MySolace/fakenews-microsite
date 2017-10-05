@@ -409,7 +409,7 @@ h1, h2 {
 div.parallax header {
   color: #9b294a;
   padding-top: 170px;
-  padding-left: 130px;
+  padding-left: 90px;
   padding-bottom: 1px;
 }
 
@@ -1738,7 +1738,7 @@ th.rotate>div>span {
     padding-left: 95px;
   }
   div.parallax header {
-    padding-left: 120px;
+    padding-left: 160px;
   }
   #mapboard iframe {
     height:calc(100vh - 150px)!important;
