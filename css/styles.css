@@ -1731,6 +1731,9 @@ th.rotate>div>span {
   div.masthead-inner a.hideable1, div.masthead-inner a.hideable {
     padding-left: 95px;
   }
+  div.parallax header {
+    padding-left: 120px;
+  }
   #mapboard iframe {
     height:calc(100vh - 150px)!important;
   }
