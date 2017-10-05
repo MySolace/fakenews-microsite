@@ -22,7 +22,7 @@ function template(item) {
 
 //Loading Featured Posts
 $.getJSON(
-  "https://spreadsheet.glitch.me/?key=1IMMk-7b-L7joK9GnoR_dB3616X8sr8_Ckz9qvD5v9DI",
+  "https://spreadsheet.glitch.me/?key=1EPYB5CZWDJwlkrWjLhEcuAKZnNHJXZNsVZWPElGxqVA",
   data => {
     console.log(data)
     let containerhtml = "";
@@ -39,9 +39,9 @@ function template_1(item) {
       <h1 class="featured-video">
         <a href="${item["Story URL"]}">${item.Title}</a>
       </h1>
-      <span class="pubdate">By ${item["Author Name"]} | </span>
-      <span class="pubdate">${item["Publish Date"]} | </span>
-      <span class="pubdate">${item["Media"]}</span>
+      <span class="pubdate">${item["Media"]} |</span>
+      <span class="pubdate">${item["Author Name"]} | </span>
+      <span class="pubdate">${item["Publish Date"]}</span>
       <img alt="Photo for story" class="img-responsive" src="${item["Image URL"]}">
       <p class="lead-video"> ${item.Descriptions}</p>
       <a href='${item["Story URL"]}' class="button button-circle">Read More</a>

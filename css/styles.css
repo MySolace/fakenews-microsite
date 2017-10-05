@@ -1,13 +1,10 @@
 .masthead {
-  background: rgba(155, 41, 74, 1);
-  border-bottom: 1px solid #ccc;
+  background: rgba(155, 41, 74, 0);
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   margin-bottom: 20px;
   position: fixed;
-  background-color: #9b294a;
-  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   top: 0;
   width: 100%;
@@ -32,12 +29,12 @@
 }
 
 .masthead .logo a {
-  color: #eeeadb;
+  color: #322f31;
   text-transform: none;
 }
 
 .masthead .logo a:hover {
-  color: #eeeadb;
+  color: #322f31 ;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -274,11 +271,11 @@ video {
 }
 
 .top-story, .more-top {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .top-story a.button {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -411,7 +408,8 @@ h1, h2 {
 
 div.parallax header {
   color: #9b294a;
-  padding-top: 225px;
+  padding-top: 170px;
+  padding-left: 90px;
   padding-bottom: 1px;
 }
 
@@ -444,7 +442,7 @@ div header h1, div header h2 {
 
 h1 {
   color: #222;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4em;
   font-weight: bold;
   margin: 20px 0 0 0;
@@ -452,7 +450,7 @@ h1 {
 
 h2 {
   color: #555;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 1.2em;
   font-weight: bold;
@@ -467,7 +465,7 @@ h3 {
   border-radius: 2px;
   color: #fff;
   display: inline-block;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.1em;
   padding: 4px 6px;
   text-transform: uppercase;
@@ -484,7 +482,7 @@ h3 {
   border-bottom-right-radius: 2px;
 }
 .minifeed-header {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   color: #604043;
   font-size: 1em;
   font-weight: 500;
@@ -553,7 +551,7 @@ img.team-photo:hover {
 }
 
 h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.5em;
   text-transform: uppercase;
   margin: 0 0 10px 0;
@@ -581,12 +579,12 @@ h6.last-item {
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 p.lead {
   color: #222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.3em;
   line-height: 34px;
   margin: 40px 0;
@@ -594,9 +592,9 @@ p.lead {
 }
 
 p.lead-video {
-  font-family: 'Raleway', sans-serif;
-  color: #604043 !important;
-  font-size: 0.9em;
+  font-family: 'Merriweather', serif;
+  color: #322f31 !important;
+  font-size: 1em;
   line-height: 24px;
   margin: 15px 0;
 }
@@ -628,7 +626,7 @@ ol.stories li {
 
 ol.stories a {
   display: block;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1em;
   margin: 5px 0;
 }
@@ -636,22 +634,23 @@ ol.stories a {
 span.pubdate, span.video {
   color: #322f31;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: .65em;
   letter-spacing: .5px;
   padding-right: 3px;
+  padding-bottom: 10px;
   text-transform: capitalize;
 }
 
 span.byline {
   color: #777;
   display: block;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: .9em;
 }
 
 nav {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1em;
   font-weight: 600;
   margin-top: 25px;
@@ -721,7 +720,7 @@ p.note {
   margin-right: 0px;
   font-weight: 200;
   margin-top: 40px;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper a h1 {
@@ -740,7 +739,7 @@ p.note {
 
 .wrapper p.lead {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   line-height: 34px;
   margin: 40px 0;
   margin-bottom: 60px;
@@ -754,7 +753,7 @@ p.note {
 }
 
 .wrapper-map li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1em;
   list-style-type: none;
   margin-left: -40px;
@@ -813,10 +812,10 @@ p.note {
 }
 
 .wrapper-map p.leadmaphead {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 30px 0;
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 400;
   color: #322f31;
 }
 
@@ -894,13 +893,13 @@ p.note {
 
 .wrapper-footer p {
   color: #604043;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 17px;
   font-weight: 200 !important;
 }
 
 .wrapper-footer h3 {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Merriweather', serif;
   background-color: transparent;
   color: #604043;
   text-transform: none !important;
@@ -1011,12 +1010,11 @@ h1.featured-story {
 }
 h1.featured-video {
   line-height: 24px;
-  font-size: 1.2em;
-  font-weight: normal;
+  font-size: 1.5em;
+  font-weight: 400;
   margin: 10px 0 10px 0;
   text-align: left;
-  font-family: 'Hammersmith One', sans-serif;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 h1.featured-video a {
   color: #322f31 !important;
@@ -1028,7 +1026,7 @@ h1.featured-contributor {
   font-weight: normal;
   margin: 10px 0 10px 0;
   text-align: left;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   padding-top: 20px;
 }
@@ -1041,7 +1039,7 @@ h1.featured-partners {
   font-weight: normal;
   margin: 30px 0 30px 0;
   text-align: left !important;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   padding-top: 20px;
 }
@@ -1056,7 +1054,7 @@ h1.featured-partners a {
 }
 p.intro {
   color: #222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.1em;
   line-height: 24px;
   margin: 15px 0 20px 0;
@@ -1113,7 +1111,7 @@ div.quote-content {
   /*float: left;*/
 
   text-align: left;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.1em;
   /*width: 50%;*/
 }
@@ -1136,7 +1134,7 @@ div.quote-content {
   margin: 0 auto;
 }
 #quote-container p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   color: #604043;
   font-size: .9em;
   margin-top: 10px;
@@ -1153,20 +1151,21 @@ div.quote-content {
   display: none;
 }
 #news-ticker h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  text-transform: uppercase;
+  font-size: 20px !important;
+  text-transform: capitalize;
   text-align: left;
   margin-bottom: 15px;
   margin-top: 30px;
-  color: #604043;
+  color: #322f31;
   display: inline-block;
   padding: 5px;
 }
 #news-articker h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 2em !important;
+  font-size: 2.9em !important;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
@@ -1190,23 +1189,23 @@ div.quote-content {
 a.main-nav {
   color: #444;
   font-size: .9em;
-  font-weight: normal;
+  font-weight: 400;
   margin: 28px 0;
   padding: 10px;
-  letter-spacing: .5px;
+  letter-spacing: .1px;
   border-radius: 50px;
   border: 1px solid transparent;
 }
 a.main-nav:hover, a.main-nav:focus, a.main-nav.current {
-  color: #eeeadb;
-  border-color: #eeeadb;
+  color: #322f31;
+  font-weight: 600;
   text-decoration: none !important;
 }
 div.noUi-handle {
   cursor: pointer
 }
 h2.explainer-headline {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 500;
   text-transform: uppercase;
   color: #604043;
@@ -1221,7 +1220,7 @@ h2.explainer-headline {
 }
 #mapping-the-threat p.lead {
   color: #222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.1em;
   line-height: 24px;
   margin: 20px 0 30px 0;
@@ -1232,6 +1231,7 @@ h2.explainer-headline {
   padding: 20px 0;
 }
 #news-ticker-pad {
+  padding-top: 50px;
   padding-left: 85px;
   padding-right: 85px;
 }
@@ -1246,7 +1246,7 @@ p small {
   background-size: 100% 100%;
 }
 #parallax-window-1 {
-  margin-top: 52px;
+  margin-top: 0px;
 }
 #parallax-window-1 h5 {
   background-color: rgba(0, 0, 0, .5);
@@ -1358,7 +1358,7 @@ td.country-col {
   padding: 0 10px !important;
 }
 th.rotate>div>span {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: normal;
   font-size: .9em;
   padding: 5px 10px;
@@ -1371,7 +1371,7 @@ th.rotate>div>span {
   background-color: #bbb;
   border-bottom: 4px solid #444;
   color: #111;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: bold;
   font-size: .9em;
   text-transform: uppercase;
@@ -1509,12 +1509,12 @@ th.rotate>div>span {
   margin: 20px auto;
 }
 #ipc-comparison .infographic h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
   margin-top: 0;
 }
 #ipc-comparison .infographic h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1em;
   font-weight: normal;
   letter-spacing: 2px;
@@ -1523,7 +1523,7 @@ th.rotate>div>span {
 #ipc-comparison .infographic h3 {
   background-color: #fff;
   color: #222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.2em;
   font-weight: bold;
   line-height: 25px;
@@ -1562,7 +1562,7 @@ th.rotate>div>span {
 #ipc-comparison .infographic .left-label h6 {
   border-bottom: 1px solid #333;
   padding-bottom: 5px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: .9em;
   font-weight: bold;
   text-align: center;
@@ -1570,7 +1570,7 @@ th.rotate>div>span {
 #ipc-comparison .infographic .right-label h6 {
   border-bottom: 1px solid #333;
   padding-bottom: 5px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: .9em;
   font-weight: bold;
   text-align: center;
@@ -1648,6 +1648,9 @@ th.rotate>div>span {
 }
 
 @media only screen and (min-width: 2560px) {
+  div.parallax header {
+    padding-left: 200px;
+  }
   #mapboard iframe {
     height:calc(100vh - 1000px)!important;
     padding-right: 670px;
@@ -1675,6 +1678,9 @@ th.rotate>div>span {
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 2559px){
+  div.parallax header {
+    padding-left: 200px;
+  }
   #mapboard iframe {
     height:calc(100vh - 300px)!important;
   }
@@ -1913,8 +1919,8 @@ th.rotate>div>span {
     margin-top: -40px !important;
   }
   .wrapper-map p.leadmaphead {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   #mapboard {
     padding: 30px 20px 0px 40px !important;
@@ -1995,7 +2001,7 @@ th.rotate>div>span {
     font-size: 1.5em;
   }
   #news-ticker h5 {
-    padding-left: 79px;
+    padding-left: 55px;
     margin-top: 0px;
   }
   #news-ticker-pad {
