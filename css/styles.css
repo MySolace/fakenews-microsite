@@ -51,6 +51,11 @@
   margin-left: 20px;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
 @media only screen and (max-width: 768px) {
   .logo h1 {
     font-size: .9em;
