@@ -14,8 +14,9 @@ $.getJSON(
 function template(item) {
   return `
   <div class="quote">
-      <p>${item.Descriptions}.</p>
-      <p>${item.Descriptions}.</p>
+  <span class='pubdate'>${item["Publish Date"]}</span>
+  <a href='${item["Story URL"]}'>${item.Title}</a>
+  <span class='byline'>By ${item["Author Name"]} </span>
   </div>
   `;
 }
