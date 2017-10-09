@@ -947,6 +947,7 @@ p.note {
 .wrapper-low-footer h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: none !important;
+  font-weight: 400;
   font-size: 1.5em;
   color: #322f31 !important;
 }
