@@ -14,9 +14,8 @@ $.getJSON(
 function template(item) {
   return `
   <div class="quote">
-  <span class='pubdate'>${item["Publish Date"]}</span>
-  <a href='${item["Story URL"]}'>${item.Title}</a>
-  <span class='byline'>By ${item["Author Name"]} </span>
+  <p class="lead-video"> ${item.Descriptions}</p>
+  <p class="lead-video"> ${item.Descriptions}</p>
   </div>
   `;
 }
@@ -50,7 +49,7 @@ function template_1(item) {
   `;
 }
 
-//Loading Funders
+/* Loading Funders
 $.getJSON(
   "https://spreadsheet.glitch.me/?key=Place Key Here",
   data => {
@@ -79,7 +78,7 @@ function template_2(item) {
     </div>
   </div>
   `;
-}
+} */
 
 /* Loading Next
   "https://spreadsheet.glitch.me/?key=14UwvMiLf5S-IYjdiFCXk42i6Ve3Cwy-2i0Tc8G6YAFQ",
