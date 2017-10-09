@@ -1,6 +1,6 @@
-//Loading Top Story
+//Loading Video Description
 $.getJSON(
-  "https://spreadsheet.glitch.me/?key=1QrV3AKLkdjdLZjmJ-fkNz-mgrXDwfe3vT980FCYUafk",
+  "https://spreadsheet.glitch.me/?key=1JMIS9HGurOtifAjFBycuh1l9-2WGYSWN1Ekh9wYsuUs",
   data => {
     console.log(data)
     let containerhtml = "";
@@ -14,7 +14,7 @@ $.getJSON(
 function template(item) {
   return `
   <div class="quote">
-      <a href='${item["Story URL"]}'>${item.Title}</a>
+      <p>${item.Descriptions}.</p>
       <p>${item.Descriptions}.</p>
   </div>
   `;
@@ -49,9 +49,9 @@ function template_1(item) {
   `;
 }
 
-//Loading Contributors
+//Loading Funders
 $.getJSON(
-  "https://spreadsheet.glitch.me/?key=1bjzYjbSKKCNNqWmtouzojw_tGiL-1R3SxuDV1Fd510M",
+  "https://spreadsheet.glitch.me/?key=Place Key Here",
   data => {
     console.log(data)
     let containerhtml = "";
