@@ -1657,11 +1657,11 @@ th.rotate>div>span {
     padding-left: 200px;
   }
   #mapboard iframe {
-    height:calc(100vh - 1000px)!important;
+    height:calc(100vh - 900px)!important;
     padding-right: 670px;
   }
   #mapboard-two iframe {
-    height:calc(100vh - 1065px)!important;
+    height:calc(100vh - 920px)!important;
     padding-left: 670px;
   }
   #mapboard-two {
@@ -1687,7 +1687,10 @@ th.rotate>div>span {
     padding-left: 200px;
   }
   #mapboard iframe {
-    height:calc(100vh - 300px)!important;
+    height:calc(100vh - 330px)!important;
+  }
+  #mapboard-two iframe {
+    height:calc(100vh - 330px)!important;
   }
   #mapboard {
     padding-right: 230px;
@@ -1746,7 +1749,10 @@ th.rotate>div>span {
     padding-left: 160px;
   }
   #mapboard iframe {
-    height:calc(100vh - 150px)!important;
+    height:calc(100vh - 100px)!important;
+  }
+  #mapboard-two iframe {
+    height:calc(100vh - 155px)!important;
   }
   #paint {
     height: calc(100vh - 150px)!important;

@@ -14,8 +14,8 @@ $.getJSON(
 function template(item) {
   return `
   <div class="quote">
-  <p class="lead-video"> ${item.Descriptions}</p>
-  <p class="lead-video"> ${item.Descriptions}</p>
+    <p class="lead-video"> ${item.Descriptions}</p>
+    <p class="lead-video"> ${item.Descriptions}</p>
   </div>
   `;
 }
