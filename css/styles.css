@@ -104,7 +104,20 @@
   padding: 0 .5em;
   width: 75px;
 }
-
+a.main-nav {
+  color: #444;
+  font-size: .9em;
+  font-weight: 400;
+  margin: 28px 0;
+  padding: 10px;
+  letter-spacing: .1px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+a.main-nav:hover, a.main-nav:focus, a.main-nav.current {
+  color: #666164;
+  text-decoration: none !important;
+}
 .button {
   display: inline-block;
   position: relative;
@@ -998,6 +1011,9 @@ p.note {
   height: auto;
   padding-bottom: 10px;
 }
+.center_me {
+	padding-left: 50px;
+}
 
 
 }
@@ -1193,21 +1209,6 @@ div.quote-content {
   margin-right: 55px;
   margin-left: 55px;
 }
-a.main-nav {
-  color: #444;
-  font-size: .9em;
-  font-weight: 400;
-  margin: 28px 0;
-  padding: 10px;
-  letter-spacing: .1px;
-  border-radius: 50px;
-  border: 1px solid transparent;
-}
-a.main-nav:hover, a.main-nav:focus, a.main-nav.current {
-  color: #322f31;
-  font-weight: 600;
-  text-decoration: none !important;
-}
 div.noUi-handle {
   cursor: pointer
 }
@@ -1238,7 +1239,7 @@ h2.explainer-headline {
   padding: 20px 0;
 }
 #news-ticker-pad {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 85px;
   padding-right: 85px;
 }
@@ -1682,6 +1683,9 @@ th.rotate>div>span {
     display: none;
     visibility: hidden;
   }
+  .center_me {
+	padding-left: 90px;
+  }
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 2559px){
@@ -1714,6 +1718,9 @@ th.rotate>div>span {
   .hider_1 {
     display: none;
     visibility: hidden;
+  }
+  .center_me {
+	padding-left: 90px;
   }
 }
 
@@ -1765,6 +1772,9 @@ th.rotate>div>span {
   .hider_1 {
     display: none;
     visibility: hidden;
+  }
+  .center_me {
+	padding-left: 50px;
   }
 }
 
@@ -2048,7 +2058,7 @@ th.rotate>div>span {
     margin-left: 0px;
   }
   #pad-me img {
-    padding: 5px 5px;
+    padding: 35px 35px;
   }
   .wrapper-footer a h1 {
     margin: 48px 100px;
