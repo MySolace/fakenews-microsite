@@ -131,10 +131,10 @@
           <h1></h1>
         </a>
         <h6>Menu</h6>
-        <a class="main-nav" href="index.html">Stories</a>
-        <a class="main-nav" href="#">Data &amp; Graphics</a>
-        <a class="main-nav" href="about.html">About Us</a>
-        <a class="main-nav" href="#">Get In Touch</a>
+        <a class="main-nav" href="#stories">Stories</a>
+        <a class="main-nav" href="#data">Data &amp; Graphics</a>
+        <a class="main-nav" href="#about">About Us</a>
+        <a class="main-nav" href="#contact">Get In Touch</a>
       </div>
       <div class="share-options">
         <ul>
@@ -178,11 +178,13 @@
     </div>
   </div>
 
+  <!-- STORIES -->
+  <a id="stories" class="smooth"></a>
   <div class="container">
     <div class="col-sm-12">
-      <header id="news-articker">
-        <h3>STORIES</h3>
-      </header>
+        <header id="news-articker">
+          <h3>STORIES</h3>
+        </header>
     </div>
     <div id="news" class="row">
       <!--LOADING FEATURED SHEET-->
@@ -190,12 +192,13 @@
   </div>
 
   <!--LOADING MAP-->
+  <a id="data" class="smooth"></a>
   <div id='mapping-the-threat' class='wrapper-map'>
     <div class="row">
       <div class="col-sm-12">
-        <header id="news-articker">
-          <h3>DATA &amp; GRAPHICS</h3>
-        </header>
+          <header id="news-articker">
+            <h3>DATA &amp; GRAPHICS</h3>
+          </header>
       </div>
       <div class="col-sm-5" id='paint'>
         <p class="leadmaphead">Heading Goes Here</p>
@@ -270,17 +273,19 @@
   </div>
   <!--END MAP-->
 
+  <!--ABOUT-->
+  <a id="about" class="smooth"></a>
   <div class='container' id="news-ticker-pad">
     <div class='row'>
       <div class='col-sm-4'>
-        <header id='news-ticker'>
-          <h5>Heading Goes Here</h5>
-          <div id='quote-container'>
-            <div id='latest'>
-              <!--LOADING LATEST POSTS-->
+          <header id='news-ticker'>
+            <h5>Heading Goes Here</h5>
+            <div id='quote-container'>
+              <div id='latest'>
+                <!--LOADING LATEST POSTS-->
+              </div>
             </div>
-          </div>
-        </header>
+          </header>
       </div>
       <div class="col-sm-8">
         <div class="video-container">
@@ -290,6 +295,7 @@
     </div>
   </div>
 
+  <!--FUNDERS -->
   <div id="pad-funders" class="container">
     <div class="col-sm-12">
       <header id="news-articker">
@@ -334,6 +340,8 @@
     </div>
   </div>
 
+  <!--FOOTER-->
+  <a id="contact" class="smooth"></a>
   <div class="wrapper-low-footer">
     <div class="container">
       <div class='row'>
@@ -363,6 +371,19 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/loadposts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+  <script>
+    $('.smooth').on('click', function() {
+      $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+      });
+
+      return false;
+    });
+  </script>
+
 
 </body>
 
