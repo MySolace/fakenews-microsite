@@ -650,7 +650,7 @@ ol.stories a {
 }
 
 .info-center {
-  padding-left: 200px;
+  padding-left: 210px;
 }
 
 span.pubdate, span.video {
@@ -1672,6 +1672,9 @@ th.rotate>div>span {
   div.parallax header {
     padding-left: 200px;
   }
+  .info-center {
+    padding-left: 280px;
+  }
   #mapboard iframe {
     height:calc(100vh - 900px)!important;
     padding-right: 670px;
@@ -1704,6 +1707,9 @@ th.rotate>div>span {
 @media only screen and (min-width: 1440px) and (max-width: 2559px){
   div.parallax header {
     padding-left: 200px;
+  }
+  .info-center {
+    padding-left: 280px;
   }
   #mapboard iframe {
     height:calc(100vh - 330px)!important;
@@ -1741,6 +1747,9 @@ th.rotate>div>span {
   div.parallax header {
     padding-left: 190px !important;
   }
+  .info-center {
+    padding-left: 280px !important;
+  }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 2000px) {
@@ -1770,6 +1779,9 @@ th.rotate>div>span {
   }
   div.parallax header {
     padding-left: 160px;
+  }
+  .info-center {
+    padding-left: 210px;
   }
   #mapboard iframe {
     height:calc(100vh - 100px)!important;
