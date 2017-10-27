@@ -1201,6 +1201,12 @@ div.quote-content {
   text-align: center;
   padding: 0 55px;
 }
+.news-push {
+  margin-top: 130px !important;
+}
+.news-push h3 {
+  background-color: #dedede;
+}
 
 #news .featured-video h1 {
   color: #604043 !important;
@@ -1240,6 +1246,11 @@ h2.explainer-headline {
 }
 #news-ticker-pad {
   padding-top: 100px;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+#story-ticker-pad {
+  padding-top: 40px;
   padding-left: 85px;
   padding-right: 85px;
 }
@@ -1732,7 +1743,8 @@ th.rotate>div>span {
 
 @media only screen and (min-width: 1000px) and (max-width: 2000px) {
   #quote-container img, .top-story img, .more-top img {
-    height: 200px !important;
+    height: 100% !important;
+    width: 100%;
   }
   .hider_1 {
     display: none;

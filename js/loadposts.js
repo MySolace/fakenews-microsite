@@ -42,13 +42,33 @@ function template_1(item) {
       <span class="pubdate">${item["Media"]} |</span>
       <span class="pubdate">${item["Author Name"]} | </span>
       <span class="pubdate">${item["Publish Date"]}</span>
-      <img alt="Photo for story" class="img-responsive" src="${item["Image URL"]}">
+      <img alt="Photo for story" class="img-responsive" src="${item["Image Title"]}">
       <p class="lead-video"> ${item.Descriptions}</p>
       <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
     </div>
   `;
 }
 
+//Loading Single Stories
+$.getJSON(
+  "https://spreadsheet.glitch.me/?key=1Vteb0_cYNYnKL1DFtUSq6j8fqKqZBzD599zawxXOKts",
+  data => {
+    console.log(data)
+    let containerhtml = "";
+    data.forEach(item => {
+      containerhtml += template(item);
+    });
+    $("#single_story").html(containerhtml)
+  }
+);
+
+function template(item) {
+  return `
+  <div class="quote">
+    <p class="lead-video"> ${item.Descriptions}</p>
+  </div>
+  `;
+}
 /* Loading Funders
 $.getJSON(
   "https://spreadsheet.glitch.me/?key=Place Key Here",
