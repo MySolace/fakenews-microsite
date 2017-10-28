@@ -2058,6 +2058,13 @@ th.rotate>div>span {
     margin: 28px 80px;
     font-size: 1.5em;
   }
+  .info-center {
+    padding-left: 90px;
+  }
+  #story-ticker-pad {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
   #news-ticker h5 {
     padding-left: 55px;
     margin-top: 0px;
