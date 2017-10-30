@@ -342,7 +342,7 @@ video {
   padding-bottom: 20px
 }
 
-.video-container iframe, .video-container object, .video-container embed {
+.video-container video, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -958,6 +958,7 @@ p.note {
   background-color: #dedede;
   padding-top: 40px;
   padding-bottom: 30px;
+  padding-left: 50px;
   color: #322f31 !important;
 }
 
@@ -1644,7 +1645,7 @@ th.rotate>div>span {
   height: 0;
   overflow: hidden;
 }
-.video-container iframe {
+.video-container video {
   position: absolute;
   top: 38px;
   left: 0;
@@ -1739,7 +1740,7 @@ th.rotate>div>span {
     visibility: hidden;
   }
   .center_me {
-	padding-left: 90px;
+	padding-left: 60px;
   }
 }
 
@@ -1767,6 +1768,9 @@ th.rotate>div>span {
   .wrapper h1 {
     font-size: 1.6em;
     line-height: 30px;
+  }
+  h1.featured-video a {
+    font-size: 1.2em !important;
   }
 }
 
@@ -1800,7 +1804,7 @@ th.rotate>div>span {
     visibility: hidden;
   }
   .center_me {
-	padding-left: 50px;
+	padding-left: 25px;
   }
 }
 
