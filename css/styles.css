@@ -797,7 +797,7 @@ p.note {
 }
 
 #pad-data img {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 #mapboard {
@@ -1682,7 +1682,7 @@ th.rotate>div>span {
   #pad-data {
     max-width: 69.2%;
     padding-left: 800px;
-}
+  }
   #mapboard iframe {
     height:calc(100vh - 900px)!important;
     padding-right: 670px;
@@ -1717,9 +1717,9 @@ th.rotate>div>span {
     padding-left: 200px;
   }
   #pad-data {
-    max-width: 84% !important;
+    max-width: 84%;
     padding-left: 240px;
-}
+  }
   #mapboard iframe {
     height:calc(100vh - 330px)!important;
   }
@@ -1758,6 +1758,27 @@ th.rotate>div>span {
   }
 }
 
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  #pad-data {
+    max-width: 80%;
+    padding-left: 280px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  #pad-data {
+    max-width: 85%;
+    padding-left: 210px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  #pad-data {
+    max-width: 89%;
+    padding-left: 120px;
+  }
+}
+
 @media only screen and (min-width: 1000px) and (max-width: 2000px) {
   #quote-container img, .top-story img, .more-top img {
     height: 100% !important;
@@ -1780,13 +1801,10 @@ th.rotate>div>span {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-  .masthead-inner{
+
+  .masthead-inner {
     padding: .5em 8em !important;
   }
-  #pad-data {
-    max-width: 89%;
-    padding-left: 120px;
-}
   div.masthead-inner a.hideable1, div.masthead-inner a.hideable {
     padding-left: 95px;
   }
