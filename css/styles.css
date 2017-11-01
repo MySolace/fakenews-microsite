@@ -1737,8 +1737,8 @@ th.rotate>div>span {
     font-size: 1.2em;
   }
   #pad-data {
-    max-width: 84%;
-    padding-left: 240px;
+    max-width: 77%;
+    padding-left: 310px;
   }
   #mapboard iframe {
     height:calc(100vh - 330px)!important;
@@ -1780,22 +1780,22 @@ th.rotate>div>span {
 
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
   #pad-data {
-    max-width: 80%;
-    padding-left: 280px;
+    max-width: 73%;
+    padding-left: 380px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   #pad-data {
-    max-width: 85%;
-    padding-left: 210px;
+    max-width: 77%;
+    padding-left: 280px;
   }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   #pad-data {
-    max-width: 89%;
-    padding-left: 120px;
+    max-width: 81%;
+    padding-left: 220px;
   }
 }
 
