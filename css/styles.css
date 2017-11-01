@@ -1042,7 +1042,7 @@ h1.featured-story {
 }
 h1.featured-video {
   line-height: 24px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 400;
   margin: 10px 0 10px 0;
   text-align: left;
@@ -1381,7 +1381,16 @@ th.rotate>div {
   th.rotate>div {
     transform: translate(25px, 51px) rotate(315deg);
   }
+  .container {
+      width: 1000px;
+  }
 }
+@media (min-width: 1440px) {
+  .container {
+      width: 1170px;
+  }
+}
+
 td.country-col {
   padding: 0 10px !important;
 }
@@ -1679,6 +1688,9 @@ th.rotate>div>span {
   div.parallax header {
     padding-left: 200px;
   }
+  h1.featured-video a {
+    font-size: 1.2em;
+  }
   #pad-data {
     max-width: 69.2%;
     padding-left: 800px;
@@ -1715,6 +1727,9 @@ th.rotate>div>span {
 @media only screen and (min-width: 1440px) and (max-width: 2559px){
   div.parallax header {
     padding-left: 200px;
+  }
+  h1.featured-video a {
+    font-size: 1.2em;
   }
   #pad-data {
     max-width: 84%;
@@ -1796,7 +1811,7 @@ th.rotate>div>span {
     line-height: 30px;
   }
   h1.featured-video a {
-    font-size: 1.2em;
+    font-size: 1.0em;
   }
 }
 
