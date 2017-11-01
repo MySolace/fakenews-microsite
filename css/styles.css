@@ -1769,7 +1769,7 @@ th.rotate>div>span {
 
 @media only screen and (min-width: 1200px) and (max-width: 1439px) {
   div.parallax header {
-    padding-left: 190px !important;
+    padding-left: 190px;
   }
 }
 
