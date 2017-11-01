@@ -792,6 +792,14 @@ p.note {
   color: #322f31;
 }
 
+#pad-data {
+  margin-left: 15px;
+}
+
+#pad-data img {
+  padding-bottom: 70px;
+}
+
 #mapboard {
   padding: 40px 110px 0px 0px;
   background-color: #fff;
@@ -1193,7 +1201,7 @@ div.quote-content {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
-  margin-top: 70px;
+  margin-top: 20px;
   color: #322f31 !important;
   display: block;
   padding-bottom: 30px;
@@ -1402,7 +1410,7 @@ th.rotate>div>span {
 .wrapper-map {
   background-color: rgba(51, 77, 92, .10);
   margin-bottom: 10px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .wrapper-infographic h2, .wrapper-data h2 {
   background-color: #666;
@@ -1671,6 +1679,10 @@ th.rotate>div>span {
   div.parallax header {
     padding-left: 200px;
   }
+  #pad-data {
+    max-width: 69.2%;
+    padding-left: 800px;
+}
   #mapboard iframe {
     height:calc(100vh - 900px)!important;
     padding-right: 670px;
@@ -1704,6 +1716,10 @@ th.rotate>div>span {
   div.parallax header {
     padding-left: 200px;
   }
+  #pad-data {
+    max-width: 84% !important;
+    padding-left: 240px;
+}
   #mapboard iframe {
     height:calc(100vh - 330px)!important;
   }
@@ -1767,6 +1783,10 @@ th.rotate>div>span {
   .masthead-inner{
     padding: .5em 8em !important;
   }
+  #pad-data {
+    max-width: 89%;
+    padding-left: 120px;
+}
   div.masthead-inner a.hideable1, div.masthead-inner a.hideable {
     padding-left: 95px;
   }
