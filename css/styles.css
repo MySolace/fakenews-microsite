@@ -990,6 +990,11 @@ p.note {
   padding-right: 40px;
 }
 
+.icon-align img{
+  display: inline !important;
+  padding-left: 12px;
+}
+
 #footer-red-style {
   background-color: #9b294a;
 }
