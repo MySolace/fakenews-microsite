@@ -39,9 +39,6 @@ function template_1(item) {
       <h1 class="featured-video">
         <a href="${item["Story URL"]}">${item.Title}</a>
       </h1>
-      <span class="pubdate">${item["Media"]} |</span>
-      <span class="pubdate">${item["Author Name"]} | </span>
-      <span class="pubdate">${item["Publish Date"]}</span>
       <img alt="Photo for story" class="img-responsive" src="${item["Image Title"]}">
       <p class="lead-video"> ${item.Descriptions}</p>
       <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
@@ -90,10 +87,9 @@ function template_2(item) {
       <h1 class="featured-contributor">
         <a>${item["Author Name"]}</a>
       </h1>
-      <span class="pubdate">${item["Media"]}</span></br>
-      <span class="pubdate">
-      	<a href="${item["Twitter"]}">${item["Twitter"]}</a>
-      </span>
+      <span class="pubdate">${item["Media"]} |</span>
+      <span class="pubdate">${item["Author Name"]} | </span>
+      <span class="pubdate">${item["Publish Date"]}</span>
       <p class="lead-video">${item.Bio}</p>
     </div>
   </div>
