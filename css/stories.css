@@ -115,8 +115,12 @@ a.main-nav {
   border: 1px solid transparent;
 }
 a.main-nav:hover, a.main-nav:focus, a.main-nav.current {
-  color: #666164;
-  text-decoration: none !important;
+  color: #e93f26;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  text-decoration: none;
 }
 .button {
   display: inline-block;
@@ -984,6 +988,14 @@ p.note {
 #low-footer-pad {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.icon-align img{
+  display: inline !important;
+  padding-left: 12px;
+}
+.icon-align a{
+  text-decoration: none !important;
 }
 
 #footer-red-style {
