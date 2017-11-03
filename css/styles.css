@@ -115,8 +115,12 @@ a.main-nav {
   border: 1px solid transparent;
 }
 a.main-nav:hover, a.main-nav:focus, a.main-nav.current {
-  color: #666164;
-  text-decoration: none !important;
+  color: #e93f26;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  text-decoration: none;
 }
 .button {
   display: inline-block;
@@ -791,13 +795,17 @@ p.note {
   background-color: #fff;
   color: #322f31;
 }
+.pad-data {
+  padding-left: 50px !important;
+}
 
 #pad-data {
   margin-left: 15px;
 }
 
 #pad-data img {
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #mapboard {
@@ -1826,7 +1834,7 @@ th.rotate>div>span {
     padding: .5em 8em !important;
   }
   div.masthead-inner a.hideable1, div.masthead-inner a.hideable {
-    padding-left: 95px;
+    padding-left: 85px;
   }
   div.parallax header {
     padding-left: 130px;
