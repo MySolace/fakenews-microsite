@@ -796,7 +796,7 @@ p.note {
   color: #322f31;
 }
 .pad-data {
-  padding-left: 50px !important;
+  padding-left: 5px !important;
 }
 
 #pad-data {
@@ -998,8 +998,8 @@ p.note {
 }
 
 #low-footer-pad {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .icon-align img{
