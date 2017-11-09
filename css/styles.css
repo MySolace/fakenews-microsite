@@ -981,8 +981,8 @@ p.note {
 .wrapper-low-footer h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: none !important;
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: 600;
+  font-size: 1.3em;
   color: #322f31 !important;
 }
 
@@ -1004,7 +1004,7 @@ p.note {
 
 .icon-align img{
   display: inline !important;
-  padding-left: 12px;
+  padding-left: 9px;
 }
 .icon-align a{
   text-decoration: none !important;
