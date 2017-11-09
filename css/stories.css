@@ -799,6 +799,18 @@ p.note {
   background-color: #fff;
   color: #322f31;
 }
+.pad-data {
+  padding-left: 5px !important;
+}
+
+#pad-data {
+  margin-left: 15px;
+}
+
+#pad-data img {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 
 #mapboard {
   padding: 40px 110px 0px 0px;
@@ -969,8 +981,8 @@ p.note {
 .wrapper-low-footer h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: none !important;
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: 600;
+  font-size: 1.3em;
   color: #322f31 !important;
 }
 
@@ -986,13 +998,14 @@ p.note {
 }
 
 #low-footer-pad {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .icon-align img{
   display: inline !important;
-  padding-left: 12px;
+  padding-left: 0px;
+  margin-right: 10px;
 }
 .icon-align a{
   text-decoration: none !important;
@@ -1212,7 +1225,6 @@ div.quote-content {
   margin-top: 70px;
   color: #322f31 !important;
   display: block;
-  padding-bottom: 30px;
 }
 #news-articker p {
   text-align: center;
@@ -1261,7 +1273,7 @@ h2.explainer-headline {
 }
 #news-ticker-pad {
   padding-top: 100px;
-  padding-left: 85px;
+  padding-left: 95px;
   padding-right: 85px;
 }
 #story-ticker-pad {
@@ -2166,11 +2178,17 @@ th.rotate>div>span {
     padding-left: 6px;
     padding-top: 30px;
   }
+  .pad-data {
+    padding-left: 20px !important;
+  }
   #paint {
     padding-left: 50px;
   }
   #paint-one {
     padding-left: 50px;
+  }
+  #low-footer-pad {
+    padding-right: 110px !important;
   }
   .hider {
     display: none;
