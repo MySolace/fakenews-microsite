@@ -280,7 +280,9 @@ a.button.button-circlex {
 ol {
   margin-bottom: 40px
 }
-
+ul li{
+  font-family: 'Merriweather', serif;
+}
 video {
   width: 100% !important;
   height: auto !important;
