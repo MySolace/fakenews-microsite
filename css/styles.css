@@ -1275,7 +1275,7 @@ h2.explainer-headline {
 }
 #news-ticker-pad {
   padding-top: 50px;
-  padding-left: 85px;
+  padding-left: 95px;
   padding-right: 85px;
 }
 #story-ticker-pad {
@@ -2206,11 +2206,17 @@ th.rotate>div>span {
     padding-left: 6px;
     padding-top: 30px;
   }
+  .pad-data {
+    padding-left: 20px !important;
+  }
   #paint {
     padding-left: 50px;
   }
   #paint-one {
     padding-left: 50px;
+  }
+  #low-footer-pad {
+    padding-right: 110px !important;
   }
   .hider {
     display: none;
