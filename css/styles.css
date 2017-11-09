@@ -1004,7 +1004,8 @@ p.note {
 
 .icon-align img{
   display: inline !important;
-  padding-left: 9px;
+  padding-left: 0px;
+  margin-right: 10px;
 }
 .icon-align a{
   text-decoration: none !important;
