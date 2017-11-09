@@ -1,3 +1,5 @@
+[![BCH compliance](https://bettercodehub.com/edge/badge/MySolace/fakenews-microsite?branch=master)](https://bettercodehub.com/) 
+
 \#MISINFO
 =============
 
