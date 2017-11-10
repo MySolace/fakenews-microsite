@@ -21,17 +21,17 @@
 	'use strict';
 
 var FormatOptions = [
-	'decimals',
-	'thousand',
+	"decimals",
+	"thousand",
 	"mark",
 	"prefix",
 	"suffix",
 	"encoder",
 	"decoder",
 	"negativeBefore",
-	'negative',
-	'edit',
-	'undo'
+	"negative",
+	"edit",
+	"undo"
 ];
 
 // General
@@ -269,9 +269,9 @@ var FormatOptions = [
 			if ( optionValue === undefined ) {
 
 				// Only default if negativeBefore isn't set.
-				if ( optionName === 'negative' && !filteredOptions.negativeBefore ) {
+				if ( optionName === "negative" && !filteredOptions.negativeBefore ) {
 					filteredOptions[optionName] = '-';
-				// Don't set a default for mark when 'thousand' is set.
+				// Don't set a default for mark when "thousand" is set.
 				} else if ( optionName === "mark" && filteredOptions.thousand !== '.' ) {
 					filteredOptions[optionName] = '.';
 				} else {
@@ -279,7 +279,7 @@ var FormatOptions = [
 				}
 
 			// Floating points in JS are stable up to 7 decimals.
-			} else if ( optionName === 'decimals' ) {
+			} else if ( optionName === "decimals" ) {
 				if ( optionValue >= 0 && optionValue < 8 ) {
 					filteredOptions[optionName] = optionValue;
 				} else {
@@ -287,7 +287,7 @@ var FormatOptions = [
 				}
 
 			// These options, when provided, must be functions.
-			} else if ( optionName === "encoder" || optionName === "decoder" || optionName === 'edit' || optionName === 'undo' ) {
+			} else if ( optionName === "encoder" || optionName === "decoder" || optionName === "edit" || optionName === "undo" ) {
 				if ( typeof optionValue === 'function' ) {
 					filteredOptions[optionName] = optionValue;
 				} else {
@@ -307,8 +307,8 @@ var FormatOptions = [
 
 		// Some values can't be extracted from a
 		// string if certain combinations are present.
-		throwEqualError(filteredOptions, "mark", 'thousand');
-		throwEqualError(filteredOptions, "prefix", 'negative');
+		throwEqualError(filteredOptions, "mark", "thousand");
+		throwEqualError(filteredOptions, "prefix", "negative");
 		throwEqualError(filteredOptions, "prefix", "negativeBefore");
 
 		return filteredOptions;
