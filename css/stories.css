@@ -356,7 +356,7 @@ video {
   height: 100%;
 }
 
-.wrapper-region-reports .country {
+.wrapper-region-reports, .country {
   border-radius: ;
 }
 
@@ -722,7 +722,7 @@ p.note {
 }
 
 .main-header {
-  backgroun 100% 100%d: url('../img/LandingPageBanner.jpg') 100% 100%;
+  background 100% 100%d: url('../img/LandingPageBanner.jpg') 100% 100%;
 }
 
 .wrapper {
