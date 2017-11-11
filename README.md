@@ -8,4 +8,6 @@
 
 This microsite is the go-to place to explore and interact with our series of stories on fake news published on international media platforms..
 
+This is a fork of the project served from this repo for testing. As the forks diverge, this will become focused on the US.
+
 **NOTE: This project is still in very initial development.**
