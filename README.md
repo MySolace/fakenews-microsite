@@ -6,8 +6,6 @@
 \#MISINFO
 =============
 
-The central site to explore and interact with our series of stories on the fabricated news stories published throughout international mass and social medias.
-
 This is a fork of the project served from this repo for testing. As the forks diverge, this will become focused on the US.
 
 **NOTE: This project is still in very initial development.**
