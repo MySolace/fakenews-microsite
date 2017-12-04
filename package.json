@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "apache-server-configs": "^2.15.0",
+    "del": "^3.0.0",
+    "eslint-config-google": "^0.9.1",
+    "run-sequence": "^2.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.12.1"
+  }
+}
